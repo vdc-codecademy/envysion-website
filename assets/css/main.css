@@ -174,7 +174,7 @@ ul li, ol li {
 .inner-title {
   font-size: 24px;
   font-weight: 700;
-  text-tranform: capitalize;
+  text-transform: capitalize;
 }
 
 .page-tagline {
@@ -857,33 +857,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
-}
-
-.about-item .about-text {
-  padding: 20px;
-  background: #fff;
-}
-
-.about-item .about-text h3 {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.about-item .about-text h3 a {
-  color: #212121;
-}
-
-.about-item .about-text h3 a:hover {
-  color: #E91E63;
-}
-
-.about-item .about-text .btn {
-  margin-top: 10px;
-}
-
-.about-item:hover {
-  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 #event-slides .video img {
