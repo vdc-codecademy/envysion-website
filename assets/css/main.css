@@ -903,6 +903,44 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Sponsors Area */
+.sponser-slider {
+  height: 300px;
+  margin: auto;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.sponser-slide-track {
+  display: flex;
+  width: calc(400px * 8); /* calc(width of 1 slide  x  no. of slides) */
+  animation: scroll 60s linear infinite;
+}
+
+.sponser-slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-400px * 8));
+  }
+}
+
+.sponser-slide {
+  margin-top: 0;
+  height: 300px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
 #sponsors {
   background: #f3f4f3;
 }
