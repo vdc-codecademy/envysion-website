@@ -1773,12 +1773,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
 }
 
-.footer-area .footer-social li .facebook:hover {
-  background: #3B5998;
-}
-
-.footer-area .footer-social li .twitter:hover {
-  background: #00aced;
+.footer-area .footer-social li .instagram:hover {
+  background: #fb3958;
 }
 
 .footer-area .footer-social li .linkedin:hover {
@@ -1789,8 +1785,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #25a0ca;
 }
 
-.footer-area .footer-social li .google-plus:hover {
-  background: #d34836;
+.footer-area .footer-social li .medium:hover {
+  background: #0a1411;
+}
+.footer-area .footer-social li .envelope:hover {
+  background: #4285F4;
 }
 
 .footer-area .footer-text p {
