@@ -914,7 +914,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .sponser-slide-track {
   display: flex;
-  width: calc(400px * 8); /* calc(width of 1 slide  x  no. of slides) */
+  width: calc(400px * 6); /* calc(width of 1 slide  x  no. of slides) */
   animation: scroll 60s linear infinite;
 }
 
@@ -927,7 +927,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-400px * 8));
+    transform: translateX(calc(-400px * 6));
   }
 }
 
@@ -955,6 +955,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+}
+
+.spnsors-logo {
+  height: 190px;
+  width: 360px;
 }
 
 #sponsors .spnsors-logo:hover {
