@@ -924,7 +924,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .sponser-slide-track {
   display: flex;
-  width: calc(400px * 8); /* calc(width of 1 slide  x  no. of slides) */
+  width: calc(400px * 6); /* calc(width of 1 slide  x  no. of slides) */
   animation: scroll 60s linear infinite;
 }
 
@@ -937,7 +937,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-400px * 8));
+    transform: translateX(calc(-400px * 6));
   }
 }
 
@@ -965,6 +965,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+}
+
+.spnsors-logo {
+  height: 190px;
+  width: 360px;
 }
 
 #sponsors .spnsors-logo:hover {
@@ -1656,13 +1661,13 @@ a.back-to-top:hover, a.back-to-top:focus {
 /* Footer Area Start */
 .footer-area {
   background: #222222;
+  text-align: center;
 }
 
 .footer-area h3 {
   font-size: 20px;
   color: #fe904d;
   font-weight: 700;
-  padding-bottom: 10px;
   letter-spacing: 0.5px;
 }
 
@@ -1670,8 +1675,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-size: 14px;
   color: #fe904d;
   line-height: 20px;
-  margin: 0;
-  padding-right: 50px;
+  margin: auto;
 }
 
 .footer-area ul li a {
@@ -1823,11 +1827,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .widget {
-  margin-top: 10px;
+  margin-top: 22px;
 }
 
 .widget .widget-title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 18px;
   color: #fe904d;
   font-weight: 600;

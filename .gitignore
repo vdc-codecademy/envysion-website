@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 .DS_Store
-.path-for-terminal
+
+=======
+*.DS_Store
+
+>>>>>>> cfd1ec780a2742dacf479e83af82928dbee4f8d7
