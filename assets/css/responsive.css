@@ -289,3 +289,12 @@
     width: 150px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #main-slide{
+    height: 100vh;
+  }
+  .img9{
+    height: 100vh;
+  }
+}
