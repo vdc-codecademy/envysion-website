@@ -607,6 +607,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   width: 75%;
 }
 
+.navbar-logo {
+  width: 200px;
+}
+
 .top-nav-collapse {
   background: #fff;
   z-index: 999999;
