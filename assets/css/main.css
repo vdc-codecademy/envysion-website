@@ -1651,13 +1651,13 @@ a.back-to-top:hover, a.back-to-top:focus {
 /* Footer Area Start */
 .footer-area {
   background: #222222;
+  text-align: center;
 }
 
 .footer-area h3 {
   font-size: 20px;
   color: #fff;
   font-weight: 700;
-  padding-bottom: 10px;
   letter-spacing: 0.5px;
 }
 
@@ -1665,8 +1665,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-size: 14px;
   color: #fff;
   line-height: 20px;
-  margin: 0;
-  padding-right: 50px;
+  margin: auto;
 }
 
 .footer-area ul li a {
@@ -1818,11 +1817,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .widget {
-  margin-top: 10px;
+  margin-top: 22px;
 }
 
 .widget .widget-title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 18px;
   color: #fff;
 }
