@@ -1960,6 +1960,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   z-index: 3;
 }
 
+#main-slide .event-name {
+  font-size: 40px;
+}
+
 #main-slide .home .heading{
   font-size: 48px;
   font-weight: 700;
