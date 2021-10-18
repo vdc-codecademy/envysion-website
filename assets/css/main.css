@@ -248,7 +248,7 @@ ul li, ol li {
 }
 
 .btn-lg {
-  padding: 12px 34px;
+  padding: 16px 34px;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -298,7 +298,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background: #E91E63;
+  background: #fe904d;
   border-radius: 0px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -344,7 +344,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin: 0 auto;
   width: 15%;
   height: 15%;
-  background-color: #E91E63;
+  background-color: #fe904d;
   border-radius: 100%;
   -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
   animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
@@ -929,7 +929,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .sponser-slide-track {
   display: flex;
   width: calc(400px * 6); /* calc(width of 1 slide  x  no. of slides) */
-  animation: scroll 60s linear infinite;
+  animation: scroll 40s linear infinite;
 }
 
 .sponser-slide-track:hover {
@@ -1940,6 +1940,57 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .time-countdown {
   margin: 15px 0px 50px 0;
+}
+
+#main-slide .bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8; 
+}
+
+#main-slide .home {
+  margin-top: 250px;
+  margin-bottom: 10%;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+
+#main-slide .home .heading{
+  font-size: 48px;
+  font-weight: 700;
+  color: #10162f;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+}
+
+#main-slide .btn-home {
+  margin-top: 5rem;
+}
+
+#main-slide .btn-discord{
+  margin: 25px 25px 0px 0px;
+}
+
+#main-slide .btn-discord img {
+  height: 55px;
+}
+
+.btn-discord .btn-devfolio {
+  margin: 100px;
+}
+
+.home p{
+  font-size: 20px; 
+}
+
+#main-slide .home .devfolio-tag {
+  margin-top: 250px;
 }
 
 #main-slide .carousel-control {
