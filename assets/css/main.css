@@ -248,7 +248,7 @@ ul li, ol li {
 }
 
 .btn-lg {
-  padding: 12px 34px;
+  padding: 16px 34px;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -1942,7 +1942,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin: 15px 0px 50px 0;
 }
 
-.bg-video {
+#main-slide .bg-video {
   position: absolute;
   top: 0;
   left: 0;
@@ -1952,17 +1952,41 @@ a.back-to-top:hover, a.back-to-top:focus {
   opacity: 0.8; 
 }
 
-.home {
+#main-slide .home {
+  margin-top: 250px;
+  margin-bottom: 30%;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+
+#main-slide .home .heading{
   font-size: 48px;
   font-weight: 700;
-  text-align: center;
   color: #10162f;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  margin-top: 250px;
-  margin-bottom: 30%;
-  position: relative;
-  width: 100%;
+  margin-top: 30px;
+}
+
+#main-slide .btn-home {
+  margin-top: 5rem;
+}
+
+#main-slide .btn-discord{
+  margin: 25px 25px 0px 0px;
+}
+
+#main-slide .btn-discord img {
+  height: 55px;
+}
+
+.btn-discord .btn-devfolio {
+  margin: 100px;
+}
+
+.home p{
+  font-size: 20px; 
 }
 
 #main-slide .carousel-control {
