@@ -929,7 +929,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .sponser-slide-track {
   display: flex;
   width: calc(400px * 6); /* calc(width of 1 slide  x  no. of slides) */
-  animation: scroll 60s linear infinite;
+  animation: scroll 40s linear infinite;
 }
 
 .sponser-slide-track:hover {
