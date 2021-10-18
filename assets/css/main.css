@@ -298,7 +298,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background: #E91E63;
+  background: #fe904d;
   border-radius: 0px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -344,7 +344,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin: 0 auto;
   width: 15%;
   height: 15%;
-  background-color: #E91E63;
+  background-color: #fe904d;
   border-radius: 100%;
   -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
   animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
@@ -1987,6 +1987,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .home p{
   font-size: 20px; 
+}
+
+#main-slide .home .devfolio-tag {
+  margin-top: 250px;
 }
 
 #main-slide .carousel-control {

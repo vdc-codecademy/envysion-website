@@ -50,6 +50,9 @@
   #main-slide .home {
     margin-bottom: 80%;
   }
+  #main-slide .home .devfolio-tag {
+    margin-top: 150px;
+  }
   .page-title-section {
     padding: 40px 0;
   }
@@ -323,6 +326,12 @@
   }
 }
 
+@media (max-width: 320px){
+  #main-slide .home {
+    margin-top: 160px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   #main-slide{
     height: 85vh;
@@ -338,5 +347,8 @@
   }
   #main-slide .btn-devfolio {
     margin: 25px;
+  }
+  #main-slide .devfolio-tag {
+    margin-top: 80px;
   }
 }
