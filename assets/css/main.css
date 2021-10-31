@@ -1981,8 +1981,20 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin: 25px 25px 0px 0px;
 }
 
-#main-slide .btn-discord img {
-  height: 55px;
+#main-slide .btn-devfolio {
+  margin-top: 25px; 
+}
+
+#main-slide .btn-discord {
+  background-color: #7289da;
+  height: 44px;
+  width: 312px;
+  padding: 0;
+}
+
+#main-slide .btn-discord .a-discord img {
+  height: 42px;
+  width: 110px;
 }
 
 .btn-discord .btn-devfolio {
