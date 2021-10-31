@@ -193,10 +193,10 @@
     margin: 25px 0;
   }
   #main-slide .btn-discord{
-    margin: 25px;
+    margin: 5% auto;
   }
-  #main-slide .btn-devfolio {
-    margin: 25px;
+  #main-slide .devfolio-button-iframe {
+    margin: auto;
   }
   #main-slide .carousel-indicators {
     display: none;
@@ -300,10 +300,11 @@
     margin: 25px 0;
   }
   #main-slide .btn-discord{
-    margin: 25px;
+    margin: auto;
+    margin-bottom: 5%;
   }
-  #main-slide .btn-devfolio {
-    margin: 25px;
+  #main-slide .devfolio-button-iframe {
+    margin: auto;
   }
   #main-slide .carousel-indicators {
     display: none;
@@ -343,10 +344,10 @@
     margin: 25px 0;
   }
   #main-slide .btn-discord{
-    margin: 25px;
+    margin: 5% auto;
   }
-  #main-slide .btn-devfolio {
-    margin: 25px;
+  #main-slide .devfolio-button-iframe {
+    margin: auto;
   }
   #main-slide .devfolio-tag {
     margin-top: 80px;

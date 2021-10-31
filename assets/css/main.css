@@ -917,42 +917,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Sponsors Area */
-.sponser-slider {
-  height: 300px;
-  margin: auto;
-  position: relative;
-  display: grid;
-  place-items: center;
-  overflow: hidden;
+
+.sponser-list {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.sponser-slide-track {
-  display: flex;
-  width: calc(400px * 6); /* calc(width of 1 slide  x  no. of slides) */
-  animation: scroll 40s linear infinite;
-}
-
-.sponser-slide-track:hover {
-  animation-play-state: paused;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-400px * 6));
-  }
-}
-
-.sponser-slide {
-  margin-top: 0;
-  height: 300px;
-  width: 400px;
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  perspective: 100px;
+.sponser-title {
+  margin-top: 5rem;
 }
 
 #sponsors {
@@ -1874,7 +1846,7 @@ a.back-to-top:hover, a.back-to-top:focus {
    Countdown Style Start
    ========================================================================== */
 .countdown-timer .heading-count {
-  padding: 10px 68px;
+  padding: 180px 68px 10px;
 }
 
 .countdown-timer .heading-count h2 {
@@ -1981,8 +1953,20 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin: 25px 25px 0px 0px;
 }
 
-#main-slide .btn-discord img {
-  height: 55px;
+#main-slide .btn-devfolio {
+  margin-top: 25px; 
+}
+
+#main-slide .btn-discord {
+  background-color: #7289da;
+  height: 44px;
+  width: 312px;
+  padding: 0;
+}
+
+#main-slide .btn-discord .a-discord img {
+  height: 42px;
+  width: 110px;
 }
 
 .btn-discord .btn-devfolio {
