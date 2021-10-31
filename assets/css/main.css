@@ -1874,7 +1874,7 @@ a.back-to-top:hover, a.back-to-top:focus {
    Countdown Style Start
    ========================================================================== */
 .countdown-timer .heading-count {
-  padding: 10px 68px;
+  padding: 180px 68px 10px;
 }
 
 .countdown-timer .heading-count h2 {
