@@ -2119,3 +2119,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
   border-color: #fff;
 }
+
+.yt-video {
+  width: fit-content;
+  margin: 5rem auto;
+}
