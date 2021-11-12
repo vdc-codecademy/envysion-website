@@ -1220,7 +1220,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Team Item */
-.team-item:hover {
+/* .team-item:hover {
   box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.35);
 }
 
@@ -1347,7 +1347,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
   transform: translateY(0px);
-}
+} */
 
 .blog-item {
   background-color: #fff;
@@ -2123,4 +2123,113 @@ a.back-to-top:hover, a.back-to-top:focus {
 .yt-video {
   width: fit-content;
   margin: 5rem auto;
+}
+
+/* Organisers Section */
+
+.org-card {
+  margin: 50px auto;
+  width: fit-content;
+}
+
+.org-card .org-img {
+  position: relative;
+  font-size: 0;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.org-card .org-img img {
+  width: 100%;
+  height: 302px;
+  border-radius: 100%;
+  border: 15px solid #fe904d;
+  transition: all .3s;
+}
+
+.org-card:hover .org-img img {
+  border: 0px solid #fe904d;
+}
+
+.org-card .org-content {
+  text-align: center;
+}
+
+.org-card .org-content h2 {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.org-card .org-content h3 {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom:30px;
+}
+
+.org-card .org-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+}
+
+.org-card .org-social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  padding: 12px 0 10px 0;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 100%;
+  transition: all .3s;
+}
+
+.org-card .org-social a.social-tw {
+  background: #00acee;
+}
+
+.org-card .org-social a.social-li {
+  background: #0e76a8;
+}
+
+.org-card .org-social a:last-child {
+  margin-right: 0;
+}
+
+.org-card .org-social a:hover {
+  background: #fe904d;
+}
+
+#org .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#org .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#org .column {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
