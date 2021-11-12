@@ -198,6 +198,9 @@
   #main-slide .apply-button {
     margin: auto;
   }
+  iframe.devfolio-button-iframe {
+    margin: auto;
+  }
   #main-slide .carousel-indicators {
     display: none;
   }
@@ -308,6 +311,9 @@
   #main-slide .apply-button {
     margin: auto;
   }
+  iframe.devfolio-button-iframe {
+    margin: auto;
+  }
   #main-slide .carousel-indicators {
     display: none;
   }
@@ -349,6 +355,9 @@
     margin: 5% auto;
   }
   #main-slide .apply-button {
+    margin: auto;
+  }
+  iframe.devfolio-button-iframe {
     margin: auto;
   }
   #main-slide .devfolio-tag {
