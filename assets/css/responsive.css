@@ -233,6 +233,8 @@
   }
   #sponsors .spnsors-logo {
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .blog-item .descr h3 a {
     font-size: 18px;
