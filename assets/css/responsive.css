@@ -198,6 +198,9 @@
   #main-slide .apply-button {
     margin: auto;
   }
+  iframe.devfolio-button-iframe {
+    margin: auto;
+  }
   #main-slide .carousel-indicators {
     display: none;
   }
@@ -233,6 +236,8 @@
   }
   #sponsors .spnsors-logo {
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .blog-item .descr h3 a {
     font-size: 18px;
@@ -306,6 +311,9 @@
   #main-slide .apply-button {
     margin: auto;
   }
+  iframe.devfolio-button-iframe {
+    margin: auto;
+  }
   #main-slide .carousel-indicators {
     display: none;
   }
@@ -347,6 +355,9 @@
     margin: 5% auto;
   }
   #main-slide .apply-button {
+    margin: auto;
+  }
+  iframe.devfolio-button-iframe {
     margin: auto;
   }
   #main-slide .devfolio-tag {
