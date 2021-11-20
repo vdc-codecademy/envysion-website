@@ -2254,3 +2254,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-top:1.3rem;
   margin-bottom:1rem
 }
+
+#faq {
+  background: #f3f4f3;
+}
