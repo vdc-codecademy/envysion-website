@@ -2252,7 +2252,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .prizes-category-heading {
   margin-top:1.3rem;
-  margin-bottom:1rem
+  margin-bottom:1.3rem
+}
+
+.prizes-category-heading h5 {
+  font-size: 2rem;
 }
 
 #faq {
