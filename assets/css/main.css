@@ -47,16 +47,6 @@ p {
   font-size: 14px;
 }
 
-ul, ol {
-  list-style: outside none none;
-  margin: 0;
-  padding: 0;
-}
-
-ul li, ol li {
-  list-style: none;
-}
-
 .hero-heading {
   font-size: 40px;
   font-weight: 700;
@@ -1650,6 +1640,16 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-align: center;
 }
 
+.footer-area ul, ol {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-are ul li, ol li {
+  list-style: none;
+}
+
 .footer-area h3 {
   font-size: 20px;
   color: #fe904d;
@@ -2231,4 +2231,26 @@ a.back-to-top:hover, a.back-to-top:focus {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
+}
+
+.track-prizes, .prizes-type {
+  margin-bottom: 1.3rem;
+  padding: 1rem;
+}
+
+.track-prizes a, .prizes-type a {
+  color: #fe904d;
+}
+
+.track-prizes a:hover, .prizes-type a:hover{
+  color: #4285F4
+}
+
+.track-prizes:hover, .prizes-type:hover {
+  background-color: #f3f4f3;
+}
+
+.prizes-category-heading {
+  margin-top:1.3rem;
+  margin-bottom:1rem
 }
